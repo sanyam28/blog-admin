@@ -1,0 +1,324 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.ham {
+  display: none;
+}
+
+.ham .lia {
+  font-size: 25px;
+}
+
+.cross {
+  font-size: 36px;
+  display: none;
+}
+
+nav {
+  /* background-color: rgb(46, 38, 38); */
+  background-color: white;
+  color: black;
+  padding: 12px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: right;
+}
+
+nav ul li {
+  list-style: none;
+  cursor: pointer;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .nav-branding{
+  margin: 18px 12px;
+  font-size: large;
+}
+.navbar .nav-branding .nav-branding-name{
+  padding: 15px 20px;
+  font-weight: bold;
+  color: purple;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: rgb(219, 90, 111);
+}
+
+nav .lia {
+  padding: 15px 20px;
+  font-weight: bold;
+}
+
+
+.nav-style {
+  margin: 18px 12px;
+  letter-spacing: 0.15em;
+}
+
+nav h1 {
+  padding: 15px 20px;
+}
+
+.cta-banner {
+  background-image: url('https://www.rasmussen.edu/-/media/images/blogs/school-of-technology/computerprogramminghard_banner.jpg?la=en&hash=1897D131AAF9AA952B206B04C44A4969E9D644D5');
+  /* background-image: url('/cta-banner.png'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: lighten;
+  height: 50vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cta-banner .content {
+  padding: 0 7rem;
+}
+
+.cta-banner .content h1 {
+  font-size: 48px;
+}
+
+.cta-banner .content p {
+  font-size: 21px;
+}
+
+.cta-banner .content button {
+  padding: 12px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+.cta-banner .content button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.cta-s {
+  margin: 12px 0;
+  letter-spacing: 0.1rem;
+}
+
+.r-cont {
+  margin: 12px;
+}
+
+.r-cont .content {
+  width: 80%;
+  margin: auto;
+}
+
+.r-cont .content .cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 12px 0;
+  justify-content: center;
+}
+
+.r-cont .content .card {
+  border: 2px solid green;
+  width: 430px;
+  margin: 12px;
+}
+
+.r-cont .content .card-content {
+  padding: 12px;
+  margin: 12px;
+}
+
+.r-cont .content .card img {
+  width: 100%;
+}
+
+/* projects design */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 12px 0;
+  justify-content: center;
+}
+
+.project {
+  width: 384px;
+  margin: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 454px;
+}
+
+.projects .project-content {
+  width: 100%;
+}
+
+.projects .project-content .space {
+  margin: 8px 0;
+}
+
+.projects .project-content .content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projects .img {
+  width: 100%;
+  height: auto;
+}
+
+.projects img {
+  width: 100%;
+  height: 211px;
+}
+
+/* .projects .btn {
+  padding: 6px 12px;
+  margin: 12px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+}
+
+.projects .btn:hover {
+  cursor: pointer;
+  transition: 0.1s;
+  border: 1px solid blue;
+  color: blue;
+} */
+.projects .blog-btn, .blog .blog-btn{
+  margin: 20px 5px;
+    padding: 6px 13px;
+    border: none;
+    border: 1px solid rgb(230, 70, 97);
+    background-color: white;
+    border-radius: 12px;
+    color: rgb(236 72 153);
+    cursor: pointer;
+    /* font-size: 23px; */
+}
+.projects .blog-btn:hover, .blog .blog-btn:hover{
+    background-color: rgb(236 72 153);
+    transition: .3s;
+    color: white;
+    cursor: pointer;
+}
+
+.project-heading {
+  width: 100%;
+  text-align: center;
+  margin: 15px;
+  padding: 3px 4px;
+}
+
+/* projects design ends */
+/* blog slug */
+.blog-content {
+  width: 60%;
+  margin: 40px auto;
+}
+
+/* blog slug ends */
+
+/* footer design */
+footer {
+  background-color: rgb(43, 36, 36);
+  color: white;
+  padding: 12px;
+}
+
+footer .rows {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* margin: 12px; */
+}
+
+footer .rows .row {
+  margin: 0 12px;
+  padding: 12px;
+  width: 579px;
+}
+
+footer .rows .row li {
+  padding: 12px;
+}
+
+/* footer design ends */
+.mobile-nav {
+  display: none;
+}
+
+@media screen and (max-width: 940px) {
+  .mobile-nav {
+    padding: 10px 2px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    color: black;
+  }
+
+  .ham {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  .cta-banner {
+    height: 60%;
+  }
+
+  .ul-show {
+    display: flex;
+  }
+
+  .cross {
+    display: block;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+}

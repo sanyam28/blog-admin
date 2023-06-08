@@ -1,0 +1,58 @@
+.blog-container{
+    padding: 12px;
+}
+
+.blog-container .blog{
+    width: 60%;
+    margin: auto;
+    /* display: flex;
+    justify-content: center; */
+}
+
+
+.blog-container #blogform{
+    margin-top: 12px;
+}
+
+.blog-container #blogform input{
+    padding: 7px;
+    width: 100%;
+    margin: 11px 0;
+    border-radius: 3px;
+    border: none;
+    outline: 2px solid black;
+}
+.blog-container #blogform textarea{
+    padding: 7px;
+    width: 100%;
+    margin: 11px 0;
+    border-radius: 3px;
+    border: none;
+    outline: 2px solid black;
+    resize: vertical;
+}
+.tox{
+    margin: 12px 0;
+    width: 100%;
+}
+.blog-container .form-field{
+    margin: 12px 0;
+}
+
+.blog-container .blogsubmit{
+    margin: 20px 0;
+    padding: 6px 34px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(203, 210, 216);
+    cursor: pointer;
+    font-size: 23px;
+}
+
+@media screen and (max-width:940px) {
+    .blog-container{
+        width: 100%;
+        /* margin: 4px 2px; */
+    }
+    
+}

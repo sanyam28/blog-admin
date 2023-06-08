@@ -1,0 +1,39 @@
+.login-container{
+    padding: 12px;
+}
+
+.login-container .login{
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.login-container .login-form{
+    margin: 180px 0;
+}
+
+.login-container #loginform{
+    margin-top: 12px;
+}
+
+.login-container #loginform input{
+    padding: 7px;
+    width: 100%;
+    margin: 7px 0;
+    border-radius: 3px;
+    border: none;
+    outline: 2px solid black;
+}
+.login-container .form-field{
+    margin: 12px 0;
+}
+
+.login-container .loginsubmit{
+    margin: 20px 0;
+    padding: 6px 34px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(203, 210, 216);
+    cursor: pointer;
+    font-size: 23px;
+}
