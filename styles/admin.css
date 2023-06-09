@@ -1,5 +1,5 @@
 .admin-container {
-    width: 80%;
+    width: 60%;
     margin: 12px auto;
     padding: 20px;
 }
@@ -107,6 +107,9 @@
   
 
   @media screen and (max-width:940px) {
+    .admin-container{
+      width: 80%;
+    }
     .admin-container .blog{
         display: flex;
         flex-direction: column;

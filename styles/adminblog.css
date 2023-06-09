@@ -9,16 +9,19 @@
     justify-content: center; */
 }
 
+/* .blog-container .blog-form{
+    width: 100%;
+} */
 
 .blog-container #blogform{
     margin-top: 12px;
 }
 
 .blog-container #blogform input{
-    padding: 7px;
+    padding: 9px 7px;
     width: 100%;
     margin: 11px 0;
-    border-radius: 3px;
+    border-radius: 2.3px;
     border: none;
     outline: 2px solid black;
 }
@@ -52,7 +55,13 @@
 @media screen and (max-width:940px) {
     .blog-container{
         width: 100%;
+        padding: 0px;
         /* margin: 4px 2px; */
     }
-    
+    .blog-container .blog{
+        width: 94%;
+    }
+    .blog-container .blog-form{
+        padding: 14px;
+    }
 }

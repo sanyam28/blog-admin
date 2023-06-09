@@ -39,15 +39,18 @@ nav ul li {
   list-style: none;
   cursor: pointer;
 }
-.navbar{
+
+.navbar {
   display: flex;
   justify-content: space-between;
 }
-.navbar .nav-branding{
+
+.navbar .nav-branding {
   margin: 18px 12px;
   font-size: large;
 }
-.navbar .nav-branding .nav-branding-name{
+
+.navbar .nav-branding .nav-branding-name {
   padding: 15px 20px;
   font-weight: bold;
   color: purple;
@@ -150,11 +153,6 @@ nav h1 {
 }
 
 /* projects design */
-.container {
-  width: 80%;
-  margin: auto;
-}
-
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -212,22 +210,25 @@ nav h1 {
   border: 1px solid blue;
   color: blue;
 } */
-.projects .blog-btn, .blog .blog-btn{
+.projects .blog-btn,
+.blog .blog-btn {
   margin: 20px 5px;
-    padding: 6px 13px;
-    border: none;
-    border: 1px solid rgb(230, 70, 97);
-    background-color: white;
-    border-radius: 12px;
-    color: rgb(236 72 153);
-    cursor: pointer;
-    /* font-size: 23px; */
+  padding: 6px 13px;
+  border: none;
+  border: 1px solid rgb(230, 70, 97);
+  background-color: white;
+  border-radius: 12px;
+  color: rgb(236 72 153);
+  cursor: pointer;
+  /* font-size: 23px; */
 }
-.projects .blog-btn:hover, .blog .blog-btn:hover{
-    background-color: rgb(236 72 153);
-    transition: .3s;
-    color: white;
-    cursor: pointer;
+
+.projects .blog-btn:hover,
+.blog .blog-btn:hover {
+  background-color: rgb(236 72 153);
+  transition: .3s;
+  color: white;
+  cursor: pointer;
 }
 
 .project-heading {
@@ -239,9 +240,26 @@ nav h1 {
 
 /* projects design ends */
 /* blog slug */
-.blog-content {
+.blog-view-container {
   width: 60%;
   margin: 40px auto;
+}
+.blog-view-container .blog-content h1,
+.blog-view-container .blog-content h2,
+.blog-view-container .blog-content p{
+  padding: 14px;
+}
+.blog-view-container img{
+  max-width: 100%;
+}
+
+.blog-view-container code {
+  display: block;
+  overflow-x: scroll;
+  background-color: #575050;
+  color: yellow;
+  padding: 34px;
+  border-radius: 10px;
 }
 
 /* blog slug ends */
@@ -320,5 +338,9 @@ footer .rows .row li {
 
   .mobile-nav {
     display: block;
+  }
+
+  .blog-view-container{
+    width: 92%;
   }
 }

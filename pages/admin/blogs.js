@@ -4,6 +4,7 @@ import dbConnect from '../../middleware/mongoose';
 import Blog from "../../models/Blog";
 import Link from 'next/link';
 import Head from 'next/head';
+import Image from 'next/image';
 
 const DBlogs = ({ blogs, totalblogs }) => {
   const router = useRouter()
@@ -25,7 +26,8 @@ const DBlogs = ({ blogs, totalblogs }) => {
           <div className="blogs">
             {blogs.map((blog) => (
               <div className="blog" key={blog._id}>
-                <div className="img"><img src={blog.image} alt="" />
+                <div className="img">
+                  <Image src={blog.image} width={'311'} height={'211'}/>
                 </div>
                 <div className="vblog-content">
                   <div className="content">

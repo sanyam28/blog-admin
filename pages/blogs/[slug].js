@@ -10,9 +10,9 @@ const BlogS = ({ blog }) => {
       <Head>
         <title>{blog.title} - Sanyam Bucha</title>
       </Head>
-      <div className="blog-content">
+      <div className="blog-view-container">
         <h1 style={{color:"blue"}}>{blog.title}</h1>
-        <div dangerouslySetInnerHTML={{__html: blog.body}}></div>
+        <div dangerouslySetInnerHTML={{__html: blog.body}} className='blog-content'></div>
       </div>
       </div>
   )
