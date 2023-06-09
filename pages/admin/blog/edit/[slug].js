@@ -63,7 +63,7 @@ const AddBlog = ({ blog }) => {
     const image_public_id = blog.image_public_id
     const data = { blogid, image_public_id }
 
-    let res = await fetch(`${process.env.NEXT_BASE_PUBLIC_URL}/api/deleteblog`, {
+    let res = await fetch(`/api/deleteblog`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -112,7 +112,7 @@ const AddBlog = ({ blog }) => {
     if (imagechange == true) {
       const image = newimage
       const data = { blogid, image, title, slug, body, description }
-      let res = await fetch(`${process.env.NEXT_BASE_PUBLIC_URL}/api/updateblog`, {
+      let res = await fetch(`/api/updateblog`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -149,7 +149,7 @@ const AddBlog = ({ blog }) => {
     else {
       const image = false
       const data = { blogid, image, title, slug, body, description }
-      let res = await fetch(`${process.env.NEXT_BASE_PUBLIC_URL}/api/updateblog`, {
+      let res = await fetch(`/api/updateblog`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
